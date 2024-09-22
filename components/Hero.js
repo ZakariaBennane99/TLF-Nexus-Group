@@ -1,10 +1,13 @@
 'use client';
 
+import { getAssetPath } from '../utils/assetPath';
+
+
 export default function Hero() {
     return (
       <section className="hero">
         <video autoPlay loop muted className="background-video">
-          <source src="/background-video.mp4" type="video/mp4" />
+          <source src={getAssetPath('/background-video.mp4')} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="overlay"></div>

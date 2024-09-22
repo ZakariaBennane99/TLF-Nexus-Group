@@ -2,13 +2,16 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faInstagram, faTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { getAssetPath } from '../utils/assetPath';
+
+
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-upper">
         <div className="logo-container">
-          <img src="/logo.svg" alt="TLF Nexus Group Logo" width={300} />
+          <img src={getAssetPath('/logo.svg')} alt="TLF Nexus Group Logo" width={300} />
         </div>
         <div className="social-icons">
           <a href="https://www.linkedin.com/company/tlf-nexus-group" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

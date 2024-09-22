@@ -1,3 +1,6 @@
+import { getAssetPath } from '../utils/assetPath';
+
+
 export default function Certifications() {
   const certifications = [
     {
@@ -16,12 +19,12 @@ export default function Certifications() {
     <section id="certifications" className="certifications">
       <h2 className="certifications-title">OUR CERTIFICATES</h2>
       <div className="splitter-container">
-        <img src="/splitter.svg" />
+        <img src={getAssetPath('/splitter.svg')} />
       </div>
       <div className="certifications-grid">
         {certifications.map((cert, index) => (
           <div key={index} className="certification-card">
-            <img src={'/' + cert.name + '.svg'} />
+            <img src={getAssetPath('/' + cert.name + '.svg')} />
             <h3 className="certification-name">{cert.fullName}</h3>
             <p className="certification-description">{cert.description}</p>
           </div>
