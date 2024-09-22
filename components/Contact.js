@@ -1,5 +1,5 @@
 "use client";
-import { getAssetPath } from '../utils/assetPath';
+
 
 import { useState } from 'react';
 
@@ -52,7 +52,7 @@ export default function ContactUs() {
     <section id='contact' className="contact-us">
         <h1 className='contact-us-title'>CONTACT US</h1>
         <div className="splitter-container">
-          <img src={getAssetPath('/splitter.svg')} />
+          <img src='/splitter.svg' />
         </div>
       <div className="contact-container">
         <div className="contact-form">

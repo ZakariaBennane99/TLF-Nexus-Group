@@ -6,7 +6,6 @@ import { Oswald, Montserrat, Roboto } from 'next/font/google';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import { getAssetPath } from '../../utils/assetPath';
 config.autoAddCss = false
 
 const oswald = Oswald({
@@ -36,12 +35,12 @@ export const metadata = {
   description: 'TLF Nexus Group is a premier service provider specializing in law enforcement support, project management, and staffing. We deliver tailored services to counties, cities, private companies, and NGOs, ensuring top-tier professionalism and results.',
   icons: {
     icon: [
-      { url: getAssetPath('/favicon.png') },
-      { url: getAssetPath('/favicon-16x16.png'), sizes: '16x16', type: 'image/png' },
-      { url: getAssetPath('/favicon-32x32.png'), sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: [
-      { url: getAssetPath('/apple-touch-icon.png'), sizes: '180x180', type: 'image/png' },
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
   manifest: '/site.webmanifest',

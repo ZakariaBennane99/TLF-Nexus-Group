@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { useSmoothScroll } from '../components/useSmoothScroll';
-import { getAssetPath } from '../utils/assetPath';
 
 export default function Header({ isPrivacyPage }) {
   const scrollToSection = useSmoothScroll();
@@ -17,7 +16,7 @@ export default function Header({ isPrivacyPage }) {
       <header className='header'>
       <div className="logoContainer">
         <img
-          src={getAssetPath('/logo.svg')}
+          src='/logo.svg'
           alt="TLF Nexus Group Logo"
           className='logo'
         />
@@ -39,7 +38,7 @@ export default function Header({ isPrivacyPage }) {
     <header className='header'>
       <div className="logoContainer">
         <img
-          src={getAssetPath('/logo.svg')}
+          src='/logo.svg'
           alt="TLF Nexus Group Logo"
           className='logo'
         />

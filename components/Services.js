@@ -1,4 +1,4 @@
-import { getAssetPath } from '../utils/assetPath';
+
 
 export default function Services() {
   const services = [
@@ -29,12 +29,12 @@ export default function Services() {
 
       <h2 className="services-title">OUR SERVICES</h2>
       <div className="splitter-container">
-        <img src={getAssetPath("/splitter.svg")}/>
+        <img src="/splitter.svg" />
       </div>
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
-            <img src={getAssetPath('/' + service.img)}/>
+            <img src={'/' + service.img}/>
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
           </div>
