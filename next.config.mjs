@@ -7,6 +7,16 @@ const nextConfig = {
       unoptimized: true,
     },
     trailingSlash: true,
+    webpack: (config) => {
+        config.module.rules.push({
+          test: /CNAME/,
+          type: 'asset/resource',
+          generator: {
+            filename: 'static/CNAME'
+          }
+        });
+        return config;
+    },
 }
   
 export default nextConfig;
