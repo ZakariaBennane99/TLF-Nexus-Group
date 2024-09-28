@@ -32,7 +32,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: 'TLF Nexus Group',
-  description: 'TLF Nexus Group is a premier service provider specializing in law enforcement support, project management, and staffing. We deliver tailored services to counties, cities, private companies, and NGOs, ensuring top-tier professionalism and results.',
+  description: 'TLF Nexus Group is a premier service provider specializing in public safety & law enforcement support, project management, and staffing. We deliver tailored services to counties, cities, private companies, and NGOs, ensuring top-tier professionalism and results.',
   icons: {
     icon: [
       { url: '/favicon.png' },

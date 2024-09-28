@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
 
       <section>
         <h2>1. Introduction</h2>
-        <p>TLF Nexus Group ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data and tell you about your privacy rights.</p>
+        <p>TLF Nexus Group LLC ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data and tell you about your privacy rights.</p>
       </section>
 
       <section>
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
         <p>We may collect, use, store and transfer different kinds of personal data about you, including:</p>
         <ul>
           <li>Identity Data: includes first name, last name, username or similar identifier.</li>
-          <li>Contact Data: includes email address and telephone numbers.</li>
+          <li>Contact Data: includes email address and name.</li>
           <li>Technical Data: includes internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform.</li>
         </ul>
       </section>
@@ -58,8 +58,8 @@ export default function PrivacyPolicy() {
       <section>
         <h2>6. Contact Us</h2>
         <p>If you have any questions about this privacy policy or our privacy practices, please contact us at:</p>
-        <p>Email: info@tlfnexusgroup.com</p>
-        <p>Address: 123 Business St, Baton Rouge, LA 12345</p>
+        <p><b>Email:</b> info@tlfnexusgroup.com</p>
+        <p><b>Address:</b> 1301 York Road, Suite 800 #1089, Lutherville, MD 21093</p>
       </section>
     </div>
       <Footer />

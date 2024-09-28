@@ -43,7 +43,7 @@ export default function Footer() {
           Privacy Policy
         </Link>
       </div>
-      <div className="footer-bottom">© 2024 TLF Nexus Group. All rights reserved.</div>
+      <div className="footer-bottom">© 2024 TLF Nexus Group LLC. All rights reserved.</div>
     </footer>
   );
 }

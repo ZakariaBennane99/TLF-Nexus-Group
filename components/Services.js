@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 
 export default function Services() {
   const services = [
@@ -26,15 +26,27 @@ export default function Services() {
 
   return (
     <section id="services" className="services">
-
       <h2 className="services-title">OUR SERVICES</h2>
       <div className="splitter-container">
-        <img src="/splitter.svg" />
+        <img src='/splitter.svg' />
       </div>
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
-            <img src={'/' + service.img}/>
+            <div className="image-container">
+              <Image
+                src={`/${service.img}`}
+                alt={service.title}
+                width={400}
+                height={300}
+                layout="responsive"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL={`data:image/svg+xml;base64,${btoa(
+                  '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300"><rect width="100%" height="100%" fill="#f0f0f0"/></svg>'
+                )}`}
+              />
+            </div>
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
           </div>

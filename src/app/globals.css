@@ -255,6 +255,7 @@ body {
 }
 
 .services-title {
+  margin-bottom: 15px !important;
   text-align: center;
   font-size: 3em;
   margin-bottom: 30px;
@@ -310,6 +311,7 @@ body {
 
 .certifications-title {
   text-align: center;
+  margin-bottom: 15px !important;
   font-size: 3em;
   margin-bottom: 40px;
   font-family: var(--font-montserrat);
@@ -383,6 +385,7 @@ body {
 }
 
 .about-us-title {
+  margin-bottom: 15px !important;
   text-align: center;
   font-size: 3em;
   margin-bottom: 40px;
@@ -524,7 +527,6 @@ body {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
 .form-group textarea {
@@ -595,6 +597,7 @@ body {
 
 .contact-us-title {
   width: 100%;
+  margin-bottom: 15px !important;
   font-family: var(--font-montserrat);
   text-align: center;
   font-size: 3em;
@@ -739,3 +742,4 @@ body {
 .privacyPolicy li {
   margin-bottom: 5px;
 }
+

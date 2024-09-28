@@ -96,7 +96,7 @@ export default function ContactUs() {
         
         <div className="contact-info">
           <h2>Contact Information</h2>
-          <p><strong>Address:</strong> 123 Business St, Baton Rouge, LA 12345</p>
+          <p><strong>Address:</strong> 1301 York Road, Suite 800 #1089, Lutherville, MD 21093</p>
           <p><strong>Phone:</strong> (443) 300-6105</p>
           <p><strong>Email:</strong> info@tlfnexusgroup.com</p>
           <div className="working-hours">
@@ -108,7 +108,7 @@ export default function ContactUs() {
       </div>
       <div className="map-container">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223849.83765856033!2d-91.26414065056582!3d30.45288769546273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86243867325f74cb%3A0x2123f1db91579a1d!2sBaton%20Rouge%2C%20LA!5e0!3m2!1sen!2sus!4v1695326391290!5m2!1sen!2sus" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.778504109623!2d-76.6216458!3d39.4346112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80e0c3957944b%3A0x2a44813c8a9b0aba!2s1301%20York%20Rd%20%23800%2C%20Lutherville-Timonium%2C%20MD%2021093!5e0!3m2!1sen!2sus!4v1695326391290!5m2!1sen!2sus" 
           width="100%" 
           height="450" 
           style={{border:0}} 
