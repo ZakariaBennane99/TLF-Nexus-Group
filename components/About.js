@@ -1,6 +1,14 @@
 
 
+/*
+
+<img src='/timothy-ferguson.jpg'  alt="Timothy Ferguson" className="founder-image" />
+
+*/
+
+
 export default function AboutUs() {
+
   return (
     <section id="leadership" className="about-us"> 
       <h2 className="about-us-title">LEADERSHIP</h2>
@@ -8,7 +16,6 @@ export default function AboutUs() {
         <img src='/splitter.svg' />
       </div>
       <div className="founder">
-        <img src='/timothy-ferguson.jpg'  alt="Timothy Ferguson" className="founder-image" />
         <h3 className="founder-name">Timothy Ferguson</h3>
         <p className="founder-tagline">Over 30 years of Public Safety Expertise</p>
         <div className="founder-bio">

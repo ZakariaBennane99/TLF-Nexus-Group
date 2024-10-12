@@ -1,12 +1,17 @@
 import React from 'react';
 
+/*
+
+{
+  name: "sdvosb.svg",
+  fullName: "Service-Disabled Veteran-Owned Small Business",
+  description: "This certification recognizes businesses owned by service-disabled veterans. It provides access to federal contracting opportunities, demonstrating our commitment to supporting veteran entrepreneurship and bringing unique military expertise to our services."
+}
+
+*/
+
 export default function Certifications() {
   const certifications = [
-    {
-      name: "sdvosb.svg",
-      fullName: "Service-Disabled Veteran-Owned Small Business",
-      description: "This certification recognizes businesses owned by service-disabled veterans. It provides access to federal contracting opportunities, demonstrating our commitment to supporting veteran entrepreneurship and bringing unique military expertise to our services."
-    },
     {
       name: "mosb.svg",
       fullName: "Minority-Owned Small Business",
