@@ -26,6 +26,16 @@ export default function Certifications() {
       name: "vsbe.png",
       fullName: "Veteran-Owned Small Business Enterprise Program",
       description: "The VSBE Program recognizes and supports veteran-owned businesses in Maryland. This certification provides us with increased opportunities in state contracting, acknowledging the value and experience that veterans bring to the business world."
+    },
+    {
+      name: "voc.png",
+      fullName: "Veteran-Owned Certification (SBA)",
+      description: "The Veteran-Owned Certification from the Small Business Administration (SBA) enhances our credibility and provides access to federal contracting opportunities reserved for veteran-owned businesses. This certification acknowledges the contributions and expertise of veterans in the business community."
+    },
+    {
+      name: "sdvoc.png",
+      fullName: "Service-Disabled Veteran-Owned Small Business Certification (SBA)",
+      description: "The Service-Disabled Veteran-Owned Small Business (SDVOSB) Certification from the SBA offers exclusive access to federal contracts and subcontracts for businesses owned and controlled by service-disabled veterans. It reflects our commitment to excellence and the unique capabilities brought by service-disabled veterans to the business world."
     }
   ];
 

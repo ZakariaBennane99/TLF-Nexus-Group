@@ -2,7 +2,7 @@
 
 /*
 
-<img src='/timothy-ferguson.jpg'  alt="Timothy Ferguson" className="founder-image" />
+
 
 */
 
@@ -16,6 +16,7 @@ export default function AboutUs() {
         <img src='/splitter.svg' />
       </div>
       <div className="founder">
+        <img src='/square.jpeg'  alt="Timothy Ferguson" className="founder-image" />
         <h3 className="founder-name">Timothy Ferguson</h3>
         <p className="founder-tagline">Over 30 years of Public Safety Expertise</p>
         <div className="founder-bio">
