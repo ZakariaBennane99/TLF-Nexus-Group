@@ -5,6 +5,7 @@ import About from '../../components/About';
 import Certifications from '../../components/Certifications';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
+import OurClients from '../../components/OurClients'
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Header Header isPrivacyPage={false} /> 
         <Hero />
         <Services />
+        <OurClients />
         <Certifications />
         <About />
         <Contact />
