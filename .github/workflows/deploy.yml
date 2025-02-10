@@ -45,10 +45,11 @@ jobs:
         with:
           enablement: true
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+      - name: Upload artifact (using upload-artifact)
+        uses: actions/upload-artifact@v4
         with:
-          path: './out'
+          name: github-pages-artifact
+          path: './out'  # Ensure this matches your build folder
 
       - name: Deploy to GitHub Pages
         id: deployment
