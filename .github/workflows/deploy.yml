@@ -32,29 +32,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Clean and build
+        run: |
+          rm -rf ./out
+          npm run build
         env:
           NODE_OPTIONS: '--experimental-vm-modules'
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
+      # Debug: List files and check for symlinks
+      - name: List files and check for symlinks
+        run: |
+          find ./out -type l  # Check for symlinks
+          du -sh ./out        # Check the size of the build folder
 
-      # List files to ensure the build is correct
-      - name: List files in build directory
-        run: ls -al ./out
-
-      # Upload artifact with the correct name
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages  # Make sure this matches the artifact name in the deploy step
+          name: github-pages
           path: './out'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact-name: github-pages  # Make sure this matches the artifact name uploaded
