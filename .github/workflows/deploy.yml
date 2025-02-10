@@ -4,14 +4,11 @@ on:
   push:
     branches: [main]
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -45,12 +42,19 @@ jobs:
         with:
           enablement: true
 
-      - name: Upload artifact (using upload-artifact)
+      # List files to ensure the build is correct
+      - name: List files in build directory
+        run: ls -al ./out
+
+      # Upload artifact with the correct name
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages-artifact
-          path: './out'  # Ensure this matches your build folder
+          name: github-pages  # Make sure this matches the artifact name in the deploy step
+          path: './out'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact-name: github-pages  # Make sure this matches the artifact name uploaded
