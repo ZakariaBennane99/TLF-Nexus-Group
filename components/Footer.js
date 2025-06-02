@@ -34,8 +34,6 @@ export default function Footer() {
         </Link>
         <div className="business-codes">
           <span><b>NAICS:</b> 541611</span>
-          <span><b>CAGE:</b> 9XVC4</span>
-          <span><b>UEI:</b> NR89MG3EGST8</span>
         </div>
       </div>
       <div className='privacy-policy'>
