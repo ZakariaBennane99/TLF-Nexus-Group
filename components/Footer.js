@@ -16,14 +16,11 @@ export default function Footer() {
           <a href="https://www.linkedin.com/company/tlf-nexus-group" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
-          <a href="https://www.instagram.com/tlfnexusgroup/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-          <a href="https://x.com/TLFNexusGroup" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
           <a href="https://www.facebook.com/people/TLF-Nexus-Group/61566070596470" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+          <a href="https://www.instagram.com/tlfnexusgroup/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { Oswald, Montserrat, Roboto } from 'next/font/google';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { GoogleAnalytics } from '@next/third-parties/google';
 config.autoAddCss = false
 
 const oswald = Oswald({
@@ -56,6 +57,7 @@ export default function RootLayout({ children }) {
         </div>
         <DashedLines />
         <ScrollToTopButton />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
       </body>
     </html>
   )

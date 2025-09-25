@@ -15,9 +15,9 @@ export default function Home() {
         <Header Header isPrivacyPage={false} /> 
         <Hero />
         <Services />
-        <OurClients />
         <Certifications />
         <About />
+        <OurClients />
         <Contact />
         <Footer />
       </main>

@@ -3,24 +3,24 @@ import Image from 'next/image';
 export default function Services() {
   const services = [
     {
-      title: "Public Safety Services",
-      img: 'law.jpg',
-      description: "Leveraging over 30 years of public safety expertise to provide cutting-edge solutions for public safety & law enforcement agencies. Our services include strategic planning, risk analysis, and innovative training programs tailored to meet the evolving challenges in public safety."
+      title: "Fire Safety & Emergency Equipment Supply",
+      img: 'PPEEquipment.png',
+      description: "Complete sourcing and supply of fire extinguishers, suppression systems, PPE, respiratory protection, and specialized safety equipment. From basic fire safety gear to advanced emergency response equipment for first responders and industrial applications."
     },
     {
-      title: "Safety Consulting",
-      img: 'safety.jpg',
-      description: "Comprehensive safety consulting services drawing from extensive experience in crisis management and emergency operations. We offer tailored approaches to enhance organizational safety protocols and emergency response strategies."
+      title: "Emergency Response Training & Education",
+      img: 'FireDrill.png',
+      description: "Professional fire training programs using state-of-the-art training props, emergency response drills, hazmat certification courses, and hands-on simulation exercises. Expert instruction designed for firefighters, EMS, and emergency personnel."
     },
     {
-      title: "Project Management",
-      img: 'project.jpg',
-      description: "Expert project management services for high-stakes security projects and specialized operations. Our team brings a wealth of experience from military and government sectors to ensure efficient and effective project execution."
+      title: "Safety Consulting & Emergency Planning",
+      img: 'PlanningSession.png',
+      description: "Strategic emergency response planning, continuity of operations (COOP) development, safety assessments, regulatory compliance consulting, and risk management solutions for government agencies and private sector clients."
     },
     {
-      title: "Staffing Solutions",
-      img: 'staffing.jpg',
-      description: "Specialized staffing services for government agencies and private sector clients. We provide top-tier professionals with backgrounds in IT, support, and project management, ensuring our clients have access to the best talent in the industry."
+      title: "Security & Inspection Services",
+      img: 'Inspection.png',
+      description: "Comprehensive security consulting, safety inspections, equipment assessments, compliance audits, and vulnerability evaluations. Specialized services for critical infrastructure, public facilities, and high-security environments."
     }
   ];
 
