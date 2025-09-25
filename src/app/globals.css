@@ -475,6 +475,7 @@ body {
   width: 200px;
   height: 200px;
   border: 6px solid black;
+  border-bottom: 0px;
   object-fit: cover;
 }
 
