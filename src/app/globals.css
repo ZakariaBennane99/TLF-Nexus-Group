@@ -46,6 +46,27 @@ body {
   z-index: 1;
 }
 
+.linkedin-icon {
+    margin-top: 15px;
+}
+
+.linkedin-icon a {
+    color: #ffffff;
+    background-color: #0A66C2; /* LinkedIn official blue */
+    font-size: 1.6rem;
+    border-radius: 4px;        /* Rounded corners like LinkedIn logo */
+    padding: 0px 7px;          /* Space around the icon/text */
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;         /* LinkedIn logo uses bold text */
+    text-decoration: none;
+}
+
+.linkedin-icon a:hover {
+    background-color: #084C8D; /* Darker blue on hover */
+    color: #ffffff;            /* Ensure text remains white on hover */
+}
+
 .vertical-lines-container {
   position: absolute;
   top: 0;
@@ -482,6 +503,7 @@ body {
 .founder-name {
   font-size: 2rem;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .founder-tagline {

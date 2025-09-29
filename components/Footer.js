@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faInstagram, faTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 
 

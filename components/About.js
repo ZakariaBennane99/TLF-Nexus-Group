@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 /*
 
@@ -17,6 +18,11 @@ export default function AboutUs() {
       </div>
       <div className="founder">
         <img src='/square.jpeg'  alt="Timothy Ferguson" className="founder-image" />
+        <div className="linkedin-icon">
+            <a href="https://www.linkedin.com/in/timothy-ferguson-tlf-nexus-group/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+        </div>
         <h3 className="founder-name">Timothy Ferguson</h3>
         <p className="founder-tagline">Over 30 years of Public Safety Expertise</p>
         <div className="founder-bio">
