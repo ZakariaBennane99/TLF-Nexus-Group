@@ -15,7 +15,7 @@ export default function Services() {
     {
       title: "Safety Consulting & Emergency Planning",
       img: 'PlanningSession.png',
-      description: "Strategic emergency response planning, continuity of operations (COOP) development, safety assessments, regulatory compliance consulting, and risk management solutions for government agencies and private sector clients."
+      description: "Comprehensive solutions encompassing emergency response planning, COOP development, safety and risk assessments, and regulatory compliance—supported by strategic advisory and thought leadership that inform decision-making and strengthen organizational resilience."
     },
     {
       title: "Security & Inspection Services",
